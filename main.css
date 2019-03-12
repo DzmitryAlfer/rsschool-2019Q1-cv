@@ -1,0 +1,29 @@
+body,
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.body_wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.main_image {
+    max-height: 100px;
+    max-width: 200px;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
